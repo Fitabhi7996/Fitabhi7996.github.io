@@ -1,0 +1,27 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline:none;
+    scroll-behavior: smooth;
+
+}
+
+:root{
+    --bg-color:#27395b;
+    --second-bg-color:#323a4a;
+    --text-color:#9a4040;
+    --main-color:rgb(109, 154, 47);
+}
+
+html{
+    font-size: 62%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color) ;
+}
