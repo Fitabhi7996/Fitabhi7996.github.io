@@ -88,7 +88,7 @@ section{
     display: none;
 }
 
-#home1{
+#home{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,7 +142,7 @@ span{
     box-shadow: 0 0 1rem var(--main-color);
 }
 
-#about1{
+#about{
     display: flex;
     justify-content: center;
     align-items: center;
