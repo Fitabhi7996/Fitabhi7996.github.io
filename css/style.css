@@ -60,7 +60,7 @@ section{
 #nav-menu button {
     /* font-size: 1.7rem; */
     /* color: var(--main-color); */
-    margin-left: 4rem;
+    margin-left: 1rem;
     /* transition: .3s; */
     display: inline-block;
     padding: 1rem 2.8rem;
@@ -68,7 +68,7 @@ section{
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
     font-size: 1.6rem;
-    color: var(--second-bg-color);
+    color: white;
     letter-spacing: 1rem;
     font-weight: 600;
     transition: .5s,ease;
