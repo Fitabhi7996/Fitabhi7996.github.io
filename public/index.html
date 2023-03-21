@@ -8,6 +8,7 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
     
    
@@ -15,16 +16,41 @@
   </head>
   <body>
     <div id="root"></div>
-    <header>
-      <a href="#">Abhishek G</a>
+    <header class="header">
+      <a href="#" class="logo">Abhishek G</a>
+
+      <i class='bx bx-menu' id="menu-icon"></i>
 
       <nav id="nav-menu">
-        <a id="home" href="#home">Home</a>
+        <a id="home" href="#home" class="active">Home</a>
         <a id="about" class="about section" href="#about">About</a>
         <a id="skills" href="#skills">Skills</a>
         <a id="projects" href="#projects">Projects</a>
         <a id="contact" href="#contact">Contacts</a>
+        <a href="./downloads/Abhishek-Ghodmare-Resume..pdf" download><button class="nav-link resume" id="resume-button-1">Resume</button></a>
       </nav>
     </header>
+
+    <section class="nav-link home" id="home1">
+      <div class="nav-linkhome" >
+        <h3>Hello,Myself</h3>
+        <h1 id="user-detail-name">Abhishek Ghodmare</h1>
+        <h3>And I'm a <span>Full Stack Web Developer</span></h3>
+        <p id="user-detail-intro">Web Developer with the ability to learn and collaborate in rapidly changing environments and compositions. Eager to tackle web development challenges to achieve lasting impacts on user experience.</p>
+        <div class="LG">
+          <a id="contact-linkedin" href="https://www.linkedin.com/in/abhishek-ghodmare796/"><i class='bx bxl-linkedin-square'></i></a>
+          <a id="contact-github" href="https://github.com/Fitabhi7996"><i class='bx bxl-github'></i></a>
+        </div>
+      </div>
+      <div class="home-img1">
+        <img class="home-img" src="./canva dp.jpg" alt="">
+      </div>
+
+    </section>
+
+    <section class="nav-link about">About</section>
+    <section class="nav-link skills">Skills</section>
+    <section class="nav-link projects">Projects</section>
+    <section class="nav-link contact">Contact</section>
   </body>
 </html>
