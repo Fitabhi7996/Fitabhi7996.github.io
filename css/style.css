@@ -57,7 +57,7 @@ section{
     margin-left: 4rem;
     transition: .3s;
 }
-#nav-menu button {
+#resume-button-1 {
     /* font-size: 1.7rem; */
     /* color: var(--main-color); */
     margin-left: 1rem;
@@ -73,7 +73,7 @@ section{
     font-weight: 600;
     transition: .5s,ease;
 }
-#nav-menu button:hover{
+#resume-button-1:hover{
     box-shadow: none;
 }
 
@@ -141,6 +141,61 @@ span{
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
+
+#about1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--second-bg-color);
+}
+
+.about-img img{
+    height: 35vw;
+    width: 30vw;
+}
+
+.heading2{
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3{
+    font-size: 2.6rem;
+}
+
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width:1200px){
     html{
