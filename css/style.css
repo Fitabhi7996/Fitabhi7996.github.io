@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 * {
     margin:0;
     padding:0;
@@ -6,7 +9,7 @@
     border: none;
     outline:none;
     scroll-behavior: smooth;
-
+    font-family: sans-serif;
 }
 
 :root{
@@ -17,7 +20,7 @@
 }
 
 html{
-    font-size: 62%;
+    font-size: 62.5%;
     overflow-x: hidden;
 }
 
@@ -42,6 +45,10 @@ section{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.header.sticky{
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
 
 .logo{
@@ -238,9 +245,14 @@ span{
         left: 100%;
         width: 100%;
         padding: 1rem 3%;
-        background: var(--bg-color);
+        background: var(--text-color);
         border-top: 1rem solid rgb(0, 0,0, .2);
         box-shadow: 0 .5rem 1rem rgb(0, 0,0, .2);
+        display: none;
+    }
+
+    #nav-menu:active{
+        display: block;
     }
 
     #nav-menu a{
