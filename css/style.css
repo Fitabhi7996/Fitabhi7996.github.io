@@ -356,6 +356,7 @@ animation: bounce-skills .6s;
     row-gap: 3.5rem;
     display: flex;
     justify-content: space-evenly;
+    padding-top: 50px;
 }
 
 .contact-title{
@@ -432,7 +433,9 @@ animation: bounce-skills .6s;
 
 .contact__form-div{
     position: relative;
+    
     height: 4rem;
+    width: 500px;
 }
 
 .contact__form-input{
