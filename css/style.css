@@ -274,11 +274,11 @@ animation: bounce-skills .6s;
 }
 
 
-.project-card{
+.project-card1{
     background: var(--second-bg-color);
 }
 
-.project-card h2{
+.project-card1 h2{
     margin-bottom: 4rem;
 }
 
@@ -289,7 +289,7 @@ animation: bounce-skills .6s;
     gap: 2.5rem;
 }
 
-.project-container .project-box{
+.project-container .project-card{
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
@@ -297,16 +297,16 @@ animation: bounce-skills .6s;
     display: flex;
 }
 
-.project-box img{
+.project-card img{
     width: 100%;
     transition: .5s ease;
 }
 
-.project-box:hover img{
+.project-card:hover img{
     transform: scale(1.1);
 }
 
-.project-box .project-layer{
+.project-card .project-layer{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -322,7 +322,7 @@ animation: bounce-skills .6s;
     transition: .5s ease;
 }
 
-.project-box:hover .project-layer{
+.project-card:hover .project-layer{
     transform: translateY(0);
 }
 
