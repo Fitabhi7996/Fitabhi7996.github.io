@@ -349,6 +349,80 @@ animation: bounce-skills .6s;
     font-size: 2rem;
     color: var(--second-bg-color);
 }
+ 
+/* Contact */
+
+.contact-container{
+    row-gap: 3.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.contact-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+}
+
+.contact-title i{
+    font-size: 1rem;
+    font-weight: initial;
+    font-size: x-large;
+    
+}
+
+.contact-info,
+.contact_data
+.contact-form{
+    display: grid;
+}
+
+.contact-info{
+    row-gap: 2rem;
+}
+
+.contact-data{
+    row-gap: .75rem;
+}
+
+.contact-data a{
+    color: var(--text-color);
+}
+
+
+.contact-data-title{
+    font-size: large;
+    color: var(--text-color);
+}
+
+.contact-data-info{
+    font-size: large;
+    font-family: sans-serif;
+    color: var(--main-color);
+}
+
+.contact-button{
+    width: max-content;
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    color: var(--second-bg-color);
+    font: large;
+}
+
+.contact-button i{
+    font-size: 1rem;
+    transition: transform .3s;
+}
+
+.contact-button:hover i{
+    transform: translateX(.25rem);
+}
 
 
 
