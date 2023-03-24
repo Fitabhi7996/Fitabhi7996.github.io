@@ -350,6 +350,10 @@ animation: bounce-skills .6s;
     color: var(--second-bg-color);
 }
  
+#github-top-langs{
+    height: 200px;
+    width: 300px;
+}
 /* Contact */
 
 .contact-container{
