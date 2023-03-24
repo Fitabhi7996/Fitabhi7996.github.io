@@ -350,12 +350,22 @@ animation: bounce-skills .6s;
     color: var(--second-bg-color);
 }
  
+#github-top-langs{
+    height: 200px;
+    width: 300px;
+}
+
+.calendar{
+    background-color: white;
+    color: var(--main-color);
+}
 /* Contact */
 
 .contact-container{
     row-gap: 3.5rem;
     display: flex;
     justify-content: space-evenly;
+    padding-top: 50px;
 }
 
 .contact-title{
@@ -432,7 +442,9 @@ animation: bounce-skills .6s;
 
 .contact__form-div{
     position: relative;
+    
     height: 4rem;
+    width: 500px;
 }
 
 .contact__form-input{
@@ -521,20 +533,6 @@ textarea{
     font-size: 2.4rem;
     color: var(--second-bg-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
