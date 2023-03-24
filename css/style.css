@@ -354,6 +354,11 @@ animation: bounce-skills .6s;
     height: 200px;
     width: 300px;
 }
+
+.calendar{
+    background-color: white;
+    color: var(--main-color);
+}
 /* Contact */
 
 .contact-container{
