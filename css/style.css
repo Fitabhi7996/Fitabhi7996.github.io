@@ -59,7 +59,7 @@ section{
 }
 
 #nav-menu a {
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: var(--text-color);
     margin-left: 4rem;
     transition: .3s;
@@ -83,13 +83,14 @@ section{
 #resume-button-1 a{
     margin:auto
 }
+
 #resume-button-1:hover{
     box-shadow: none;
 }
 
-#nav-menu a:hover,
-#nav-menu a.active {
-    color: var(--text-color);
+#nav-menu>a:hover,
+#nav-menu>a.active {
+    color: var(--main-color);
 }
 
 #menu-icon{
