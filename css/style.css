@@ -563,16 +563,16 @@ textarea{
     #nav-menu{
         position: absolute;
         top: 100%;
-        left: 100%;
+        left: 0;
         width: 100%;
         padding: 1rem 3%;
-        background: var(--text-color);
+        background: var(--second-bg-color);
         border-top: 1rem solid rgb(0, 0,0, .2);
         box-shadow: 0 .5rem 1rem rgb(0, 0,0, .2);
         display: none;
     }
 
-    #nav-menu:active{
+    #nav-menu.active{
         display: block;
     }
 
@@ -580,5 +580,18 @@ textarea{
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+    }
+    #home{
+        flex-direction: column;
+    }
+    .nav-linkhome h3{
+        font-size: 2.6rem;
+    }
+    .nav-linkhome h1{
+        font-size: 5rem;
+    }
+    .home-img1 img{
+        width: 40vw;
+        margin-top: 2rem;
     }
 }
