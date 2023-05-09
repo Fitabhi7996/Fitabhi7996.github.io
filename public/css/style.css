@@ -59,7 +59,7 @@ section{
 }
 
 #nav-menu a {
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: var(--text-color);
     margin-left: 4rem;
     transition: .3s;
@@ -70,22 +70,26 @@ section{
     margin-left: 1rem;
     /* transition: .3s; */
     display: inline-block;
-    padding: 1rem 2.8rem;
+    padding: 1rem 1rem;
     background: var(--main-color);
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
     font-size: 1.6rem;
     color: white;
-    letter-spacing: 1rem;
+    /* letter-spacing: 1rem; */
     font-weight: 600;
     transition: .5s,ease;
 }
+#resume-button-1 a{
+    margin:auto
+}
+
 #resume-button-1:hover{
     box-shadow: none;
 }
 
-#nav-menu a:hover,
-#nav-menu a.active {
+#nav-menu>a:hover,
+#nav-menu>a.active {
     color: var(--main-color);
 }
 
@@ -102,13 +106,18 @@ section{
 }
 
 .home-img1 img{
-    height: 35vw;
-    width: 30vw;
+    height: 30vw;
+    width: 25vw;
+    border-radius: 50%;
 }
 
 .nav-linkhome h3{
     font-size: 3.2rem;
     font-weight: 700;
+}
+.nav-linkhome h4{
+    font-size: 2.4rem;
+    font-weight: 100;
 }
 
 .nav-linkhome h3:nth-of-type(2){
@@ -158,8 +167,8 @@ span{
 }
 
 .about-img img{
-    height: 35vw;
-    width: 30vw;
+    height: 30vw;
+    width: 25vw;
 }
 
 .heading2{
@@ -176,8 +185,9 @@ span{
     font-size: 2.6rem;
 }
 
-.about-content p{
-    font-size: 1.6rem;
+.about-content h4{
+    font-size: 2.2rem;
+    font-weight: 100;
     margin: 2rem 0 3rem ;
 }
 
@@ -209,8 +219,8 @@ span{
     justify-content: center;
     align-items: center;
     column-gap: .5rem;
-    font-size: large;
-    font-weight: 700;
+    font-size: xx-large;
+    font-weight: 300;
     margin-bottom: 2.5rem;
     padding-top: 20px;
 }
@@ -239,18 +249,19 @@ span{
 .skills_blog{
     width: 80px;
     height: 100px;
-    background-color: var(--second-bg-color);
-    border-radius: 3rem;
+    /* background-color: var(--second-bg-color); */
+    /* border-radius: 3rem; */
     place-items: center ;
     margin-bottom: 1rem;
 }
 
 .skills_blog img{
-    width: 40px;
+    width: 90px;
 }
 
 .skills-card-name{
-    font-size: 300;
+    font-size: x-large;
+    font-weight: 200;
     margin-bottom: .25rem;
 }
 
@@ -283,10 +294,12 @@ animation: bounce-skills .6s;
 }
 
 .project-container{
+    /* margin-top: auto; */
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     align-items: center;
     gap: 2.5rem;
+    height: auto;
 }
 
 .project-container .project-card{
@@ -298,32 +311,43 @@ animation: bounce-skills .6s;
 }
 
 .project-card img{
+    height: 250px;
     width: 100%;
-    transition: .5s ease;
+    /* transition: .5s ease; */
 }
 
 .project-card:hover img{
     transform: scale(1.1);
 }
-
-.project-card .project-layer{
+/* .project-layer{
+    height: 400px;
+} */
+.project-card {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    /* bottom: 0; */
+    /* left: 0; */
     width: 100%;
-    height: 100%;
+    height: auto; 
     background: linear-gradient(rgba(0,0,0,.1),var(--main-color) );
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     padding: 0 4rem;
-    transform: translateY(100%);
-    transition: .5s ease;
+    /* transform: translateY(100%);
+    transition: .5s ease; */
+}
+.project-title{
+    /* background-color: black; */
+    color: white;
 }
 
-.project-card:hover .project-layer{
-    transform: translateY(0);
+.project-card .project-layer{
+    transform: translate(0)
+}
+.project-description{
+    /* background-color: black; */
+    font-size: large;
 }
 
 .project-layer h4{
@@ -334,6 +358,10 @@ animation: bounce-skills .6s;
     font-size: 1.6rem;
     margin: .3rem 0 1rem;
 }
+.project-tech-stack{
+    color: white;
+    /* background-color: black; */
+}
 
 .project-layer a {
     display: inline-flex;
@@ -343,6 +371,7 @@ animation: bounce-skills .6s;
     height: 5rem;
     background: var(--text-color);
     border-radius: 50%;
+    
 }
 
 .project-layer a i{
@@ -351,8 +380,11 @@ animation: bounce-skills .6s;
 }
  
 #github-top-langs{
-    height: 200px;
-    width: 300px;
+    /* height: 200px;
+    width: 300px; */
+}
+#github-stats-card{
+    width: 420px;
 }
 
 .calendar{
@@ -455,11 +487,11 @@ animation: bounce-skills .6s;
     height: 100%;
     border: 2px solid var(--text-color);
     border-radius: 2rem;
-    padding-left: 6rem;
-    font-size: small;
+    padding-left: 9rem;
+    font-size: large;
     font-family: sans-serif;
-    color: var(--main-color);
-    background: none;
+    color: black;
+    background: white;
     outline: none;
     z-index: 1;
 }
@@ -467,13 +499,13 @@ animation: bounce-skills .6s;
 
 .contact__form-tag{
     position: absolute;
-    top: -.75rem;
-    left: 1.25rem;
+    top: .75rem;
+    left: 1rem;
     z-index: 10;
-    background-color: var(--main-color);
-    color: var(--text-color);
-    font-size: small;
-    font-weight: 600;
+    background-color: transparent;
+    color: black;
+    font-size: large;
+    font-weight: 300;
     padding: .35rem;
 } 
 
@@ -559,16 +591,16 @@ textarea{
     #nav-menu{
         position: absolute;
         top: 100%;
-        left: 100%;
+        left: 0;
         width: 100%;
         padding: 1rem 3%;
-        background: var(--text-color);
+        background: var(--second-bg-color);
         border-top: 1rem solid rgb(0, 0,0, .2);
         box-shadow: 0 .5rem 1rem rgb(0, 0,0, .2);
         display: none;
     }
 
-    #nav-menu:active{
+    #nav-menu.active{
         display: block;
     }
 
@@ -576,5 +608,18 @@ textarea{
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+    }
+    #home{
+        flex-direction: column;
+    }
+    .nav-linkhome h3{
+        font-size: 2.6rem;
+    }
+    .nav-linkhome h1{
+        font-size: 5rem;
+    }
+    .home-img1 img{
+        width: 40vw;
+        margin-top: 2rem;
     }
 }
