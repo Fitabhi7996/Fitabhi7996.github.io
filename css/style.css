@@ -97,6 +97,7 @@ section{
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
+    
 }
 
 #home{
@@ -137,7 +138,7 @@ span{
     font-size: 1.6rem;
 }
 
-.LG a{
+.LG button{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -578,14 +579,19 @@ textarea{
     .header{
         padding: 2rem 3%;
     }
-    section{
+    /* section{
         padding: 10rem 3% 2rem;
-    }
+    } */
 }
 
 @media (max-width:768px){
+    /* .header{
+        padding: 2rem 3%;
+    } */
     #menu-icon{
         display: block;
+        /* padding: 10rem 9% 2rem; */
+        
     }
 
     #nav-menu{
@@ -621,5 +627,14 @@ textarea{
     .home-img1 img{
         width: 40vw;
         margin-top: 2rem;
+    }
+    #github-streak-stats{
+        width: 100%;
+    }
+    #github-stats-card{
+        width: 100%;
+    }
+    .calendar{
+        width: 100%;
     }
 }
