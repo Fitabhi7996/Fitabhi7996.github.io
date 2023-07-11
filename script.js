@@ -60,10 +60,10 @@ function jiomart1(){
   window.open("https://github.com/Fitabhi7996/safe-drain-4510")
 }
 
-function Regstuff(){
+function Adoreme(){
   window.open("https://regstuff.vercel.app/")
 }
-function Regstuff1(){
+function Adoreme1(){
   window.open("https://github.com/Fitabhi7996/Daily-Objects-Clone")
 }
 
