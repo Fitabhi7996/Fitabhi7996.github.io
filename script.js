@@ -60,11 +60,11 @@ function jiomart1(){
   window.open("https://github.com/Fitabhi7996/safe-drain-4510")
 }
 
-function Adoreme(){
-  window.open("https://creative-moonbeam-ae1a7c.netlify.app/")
+function Regstuff(){
+  window.open("https://regstuff.vercel.app/")
 }
-function Adoreme1(){
-  window.open("https://github.com/Fitabhi7996/eager-structure-3963")
+function Regstuff1(){
+  window.open("https://github.com/Fitabhi7996/Daily-Objects-Clone")
 }
 
 
