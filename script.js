@@ -68,19 +68,19 @@ function Adoreme1(){
 }
 
 
-function nord(){
-  window.open("https://creative-cocada-00ba63.netlify.app/")
-}
-function nord1(){
-  window.open("https://github.com/Fitabhi7996/bored-stretch-4407")
-}
+// function nord(){
+//   window.open("https://creative-cocada-00ba63.netlify.app/")
+// }
+// function nord1(){
+//   window.open("https://github.com/Fitabhi7996/bored-stretch-4407")
+// }
 
 
 function flowers(){
-  window.open("https://startling-cupcake-81c8da.netlify.app/")
+  window.open("https://1800-flowers.vercel.app/")
 }
 function flowers1(){
-  window.open("https://github.com/Fitabhi7996/violent-cobweb-6035")
+  window.open("https://github.com/Fitabhi7996/1800-Flowers")
 }
 
 
